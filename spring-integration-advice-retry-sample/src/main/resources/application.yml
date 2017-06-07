@@ -1,0 +1,16 @@
+server:
+  port: 8084
+
+
+outbound:
+  service:
+    url: https://amc-customer-service.mybluemix.net
+
+spring:
+  application:
+    name: spring-integration-retry-advice
+
+
+logging:
+  level:
+    org.springframework.retry: debug    
